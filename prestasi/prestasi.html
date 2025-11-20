@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestasi Siswa SMP Negeri Contoh</title>
+  <link rel="icon" href="../aseet/logo-smp.jpg">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f4f6f8; }
+    .hero {
+      background: linear-gradient(90deg, #2980b9 60%, #6dd5fa 100%);
+      color: #fff;
+      padding: 60px 20px 40px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .hero .logo {
+      width: 100px; height: 100px; border-radius: 50%; background: #fff; margin: 0 auto 20px auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero .logo img { width: 90px; height: 90px; border-radius: 50%; }
+    .hero h1 { font-size: 2.5em; margin: 0 0 10px 0; }
+    .hero p { font-size: 1.3em; margin-bottom: 25px; }
+    nav { background: #34495e; }
+    nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: #fff; text-decoration: none; padding: 12px 18px; display: block; font-weight: 500; border-radius: 6px; }
+    nav ul li a:hover, nav ul li a.active { background: #2980b9; }
+    .section { max-width: 950px; margin: 40px auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 40px 30px; }
+    .section h2 { color: #2980b9; margin-top: 0; }
+    .prestasi-list { display: flex; flex-wrap: wrap; gap: 30px; margin-top: 20px; justify-content: center; }
+    .prestasi-item { background: #eaf6fb; border-radius: 10px; box-shadow: 0 1px 6px rgba(0,0,0,0.08); padding: 20px; width: 270px; text-align: center; }
+    .prestasi-item img { width: 120px; height: 80px; object-fit: cover; border-radius: 8px; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto; }
+    .prestasi-item h3 { color: #34495e; margin-bottom: 10px; text-align: center; }
+    .prestasi-item p { color: #555; font-size: 15px; text-align: center; }
+    .contact-section { background: #f4f6f8; padding: 30px 0 0 0; text-align: center; }
+    .contact-section h2 { color: #2980b9; }
+    .contact-section p { font-size: 16px; color: #444; }
+    .social-icons { margin: 18px 0; }
+    .social-icons a { margin: 0 8px; display: inline-block; }
+    .social-icons img { width: 32px; height: 32px; vertical-align: middle; }
+    footer { background: #2980b9; color: #fff; text-align: center; padding: 18px 0; margin-top: 0; border-radius: 0 0 10px 10px; }
+    @media (max-width: 600px) {
+      nav ul { flex-direction: column; }
+      .prestasi-list { flex-direction: column; }
+      .section { padding: 20px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../web.html">Beranda</a></li>
+      <li><a href="../profil/profil.html">Profil</a></li>
+      <li><a href="../prestasi/prestasi.html" class="active">Prestasi</a></li>
+      <li><a href="../ekstrakurikuler/ekstrakurikuler.html">Ekstrakurikuler</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <div class="logo">
+      <img src="../aseet/logo-smp.jpg" alt="Logo SMP">
+    </div>
+    <h1>SMP Negeri 2 tasikmadu</h1>
+    <p>Better Solutions For Your Future!<br>Unggul, Berprestasi, Berkarakter mulia</p>
+  </div>
+  <div class="section">
+  <h2 style="text-align:center;">Daftar Prestasi Siswa</h2>
+    <div class="prestasi-list">
+      <div class="prestasi-item">
+        <img src="../aseet/olimpiade.jpeg" alt="Olimpiade Matematika">
+        <h3>Olimpiade Matematika</h3>
+        <p>Rina Putri (8A) - Juara 1 Olimpiade Matematika tingkat kabupaten.</p>
+      </div>
+      <div class="prestasi-item">
+        <img src="../aseet/Juara.jpg" alt="Lomba Basket">
+        <h3>Lomba Basket</h3>
+        <p>Andi Saputra (9B) - Juara 2 Lomba Basket antar sekolah.</p>
+      </div>
+      <div class="prestasi-item">
+        <img src="../aseet/lomba-menyanyi.jpg" alt="Paduan Suara">
+        <h3>Paduan Suara</h3>
+        <p>Dewi Lestari (7C) - Juara 3 Lomba Paduan Suara tingkat provinsi.</p>
+      </div>
+    </div>
+  </div>
+  <div class="contact-section" id="kontak">
+    <h2>Kontak</h2>
+    <p>Alamat: Jl. raya mencor, kalijirak tasikmadu No. 123, Kota karanganyar</p>
+    <p>Email: info@smp2tasikmadu.sch.id</p>
+    <p>Telepon: (021) 12345678</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+      <a href="https://instagram.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+      <a href="https://youtube.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube"></a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 SMP Negeri 2 tasikmaduh. All rights reserved.<br>
+    Developed by Unit Sistem Informasi SMP Negeri 2 tasikmadu.
+  </footer>
+</body>
+</html>
